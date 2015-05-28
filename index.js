@@ -8,19 +8,12 @@
 
 'use strict';
 
-var extend = require('extend')
 var getPkg = require('package')
 
-module.exports = function(options) {
+module.exports = function() {
 
   var pkg = getPkg('.')
 
-  options = extend({
-    force: false
-  }, pkg && pkg.dong || {}, options)
-
-  options.pkg = pkg;
-
-  require('./lib/i18n')(options)
+  require('./lib/i18n')(!!pkg.dong)
 
 }
