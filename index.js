@@ -8,12 +8,9 @@
 
 'use strict';
 
-var getPkg = require('package')
-
-module.exports = function() {
-
-  var pkg = getPkg('.')
-
-  require('./lib/i18n')(!!pkg.dong)
-
+module.exports = {
+  command: 'i18n',
+  description: '语言包（待翻译）生成工具',
+  // options: [],
+  bootstrap: require('./lib/i18n')
 }
