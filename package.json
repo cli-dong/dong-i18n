@@ -1,7 +1,7 @@
 {
   "name": "dong-i18n",
-  "version": "0.3.1",
-  "description": "i18n file (to be translated) generator",
+  "version": "0.3.2",
+  "description": "i18n file generator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/crossjs/dong-i18n",
   "dependencies": {
+    "dong-queue": "^0.1.0",
     "dong-replace": "^0.0.0",
     "map-stream": "0.0.5",
     "spm-log": "^0.1.2",

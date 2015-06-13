@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/dong-i18n.svg?style=flat-square)](https://npmjs.org/package/dong-i18n)
 
-> i18n file (to be translated) generator
+> i18n file generator
 
 ## Usage
 
