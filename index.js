@@ -10,7 +10,8 @@
 
 module.exports = {
   command: 'i18n',
-  description: '提取待翻译字段',
+  description: '提取待翻译字段/合并已翻译文件',
   // options: [],
-  bootstrap: require('./lib/i18n')
+  bootstrap: require('./lib/i18n'),
+  strict: true
 }
