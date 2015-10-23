@@ -1228,7 +1228,7 @@
   "预览错误": "Keaslahan Tinjauan.",
   " 上传失败，请检查网络连接": "Gagal mengunggah, Periksa jaringan.",
   "请选择上传文件": "Pilih berkas yang akan diunggah",
-  "请输入{{display}}": "Masukan Input {{display}}",
+  "请输入{{display}}": "Masukan {{display}}",
   "{{display}}的格式不正确": "Format dari {{display}} salah",
   "{{display}}不符合规则“{{pattern}}”": "{{display}} tidak cocok \"{{pattern}}\"",
   "{{display}}必须大于或者等于{{min}}": "{{display}}Tidak boleh lebih Kecil dari {{min}}",
@@ -1237,6 +1237,6 @@
   "{{display}}的长度必须小于或等于{{max}}": "Panjang dari {{display}} Tidak boleh lebih besar dari {{max}}",
   "{{display}}的字节长度必须大于或等于{{min}}": "Panjang byte dari {{display}} Tidak boleh lebih kecil dari {{min}}",
   "{{display}}的字节长度必须小于或等于{{max}}": "Panjang byte dari {{display}} Tidak boleh lebih besar dari {{max}}",
-  "请输入正确的{{display}}": "Masukan input yang benar  {{display}}.",
+  "请输入正确的{{display}}": "Masukan yang benar {{display}}.",
   "两次输入的{{display}}不一致，请重新输入": "Dua {{display}} Tidak cocok. Harap masukan lagi"
 }
